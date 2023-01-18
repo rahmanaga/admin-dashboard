@@ -135,6 +135,7 @@ li {
   align-items: center;
   position: sticky;
   top: 1rem;
+  cursor: default;
 }
 
 .navigation {
@@ -275,4 +276,12 @@ li {
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
+}
+
+.card a {
+  color: black;
+}
+
+.card a:hover {
+  color: #e4a81c;
 }
